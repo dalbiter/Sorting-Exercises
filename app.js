@@ -51,5 +51,19 @@ function merge(arr1, arr2){
     }
     return results;
 }
+/**
+ * Given an array will sort the values in the array
+ * 
+ * @param {Array} arr - an array of numbers 
+ * @returns the array sorted from smallest to largest
+ */
+function mergeSort(arr){
+    if(arr.length <= 1) return arr;
+        const mid = Math.floor(arr.length/2);
+        const left = mergeSort(arr.slice(0, mid));
+        const right = mergeSort(arr.slice(mid));
+        return merge (left, right)   
+}
+
 
 
