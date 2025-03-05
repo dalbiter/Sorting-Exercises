@@ -1,0 +1,23 @@
+{
+  "name": "sorting_exercises",
+  "version": "1.0.0",
+  "description": "sorting exercises",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/dalbiter/Sorting-Exercises.git"
+  },
+  "author": "dan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dalbiter/Sorting-Exercises/issues"
+  },
+  "homepage": "https://github.com/dalbiter/Sorting-Exercises#readme",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "jsdoc": "^4.0.4"
+  }
+}
